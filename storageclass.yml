@@ -11,3 +11,4 @@ spec:
     - ReadWriteOnce
   hostPath:
     path: "/usr/local/k8s"
+    type: DirectoryOrCreate
